@@ -1,0 +1,10 @@
+[
+  {
+    "title": "VinyVibe",
+    "imageSrc": "projects/vinyvibe.png",
+    "description": "This is an E-Commerce website of clothing store. It includes admin pannel and customer modules.",
+    "skills": ["HTML", "CSS", "PHP"],
+    "demo": "#",
+    "source": "https://github.com/M33t12/VinyVibe_Clothing_Store"
+  }
+]

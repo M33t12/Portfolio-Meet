@@ -1,7 +1,8 @@
 @import "../../vars.css";
 
 .container {
-  width: 100%;
+
+  width: 97%;
   margin: 1rem;
   display: flex;
   flex-direction:row;
@@ -11,7 +12,7 @@
     #a0a0a0 0%,
     #ffffff 100%
   );
-  box-shadow: 0 12px 12px 0 #04152d;
+  box-shadow: 0 1px 10px 0 #04152d;
   padding: 18px 24px;
   
 }
@@ -21,7 +22,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.05);
+    transform: scale(1.010);
   }
   100% {
     transform: scale(1);
@@ -47,11 +48,13 @@
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: larger;
+  font-weight: 300px;
 }
 
 .skills {
+  font-weight: 300px;
+  font-size: larger;
   width: 100%;
   margin-top: 14px;
   display: flex;
@@ -82,7 +85,7 @@
 }
 
 .link {
-  
+  padding: 5px 20px;
   align-items: center;
   display: inline;
   text-align: center;
@@ -98,21 +101,59 @@
   
 
 
-@media screen and (max-width: 830px)
-{
-  .container{
-  align-items: center;
-  color: var(--color-text);
-  background-color: var(--color-secondary);
-  display:inline-block;
-  justify-content: space-evenly;
+@media screen and (max-width: 830px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text);
+    background-color: var(--color-secondary);
+    width: 100%;
+    margin: 1rem 0;
+    padding: 18px 8px;
   }
- 
+
+  .image {
+    height: 200px;
+    width: 90vw;
+    max-width: 300px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .alignproject {
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title,
+  .description,
+  .skills {
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
   .links {
-    margin-top: 26px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .link {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
   }
  
 

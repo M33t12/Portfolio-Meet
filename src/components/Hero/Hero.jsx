@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Meet </h1>
         <p className={styles.description}>
-           I'm, a third-year Computer Engineering student with foundational knowledge in full-stack web development and a passion for building dynamic, user-friendly web applications.
+           I'm, a final-year Computer Engineering student with foundational knowledge in full-stack web development and a passion for building dynamic, user-friendly web applications.
         </p>
        
       </div>

@@ -30,14 +30,13 @@ export const ProjectCard = ({
       </div>
 
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Live
-          
-        </a>
         <a href={source} className={styles.link}>
           GitHub
         </a>
       </div>
+      
+
+      
     </div>
   );
 };

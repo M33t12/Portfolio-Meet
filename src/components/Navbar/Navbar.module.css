@@ -1,13 +1,19 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
-  z-index: 2;
+  z-index: 100;
+  padding: 15px 0;
   margin: 0 10%;
+  border-radius: 15px;
+  background: white; /* Ensures navbar background on scroll */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04); /* Optional: subtle shadow */
 }
 
 .logoImg{
@@ -34,6 +40,7 @@
 }
 
 .menuItems a {
+ 
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
@@ -43,6 +50,9 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    margin: 0 9% ;
+    position: relative;
+    
   }
 
   .menu {

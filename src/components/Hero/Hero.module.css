@@ -1,13 +1,13 @@
 @import "../../vars.css";
 
 .container {
-  
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 130px;
   z-index: 1;
+  margin-bottom: 130px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -111,7 +111,10 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    margin-top: -0.002px;
+   
   }
+  
 
   .content {
     align-items: center;

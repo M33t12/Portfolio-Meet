@@ -1,9 +1,17 @@
 [
   {
-    "title": "HealthCare Plus ",
+    "title": " CodeNest-AI powered learning platform ",
+    "imageSrc": "projects/codenest.png",
+    "description":" This is an AI intergrated learning platform which provide resource uploads with AI verification, DSA practice tracking and Quizz & Interview Preparation." ,
+    "skills": ["React", "Node", "Express", "MongoDB"],
+    "demo": "#",
+    "source": "https://github.com/M33t12/CodeNest"
+  },
+  {
+    "title": "Cardiac Hospital Management",
     "imageSrc": "projects/cardiac-1.png",
-    "description": "This is a Cardiac Hospital Management System. It includes features for patient management, appointment scheduling, and medical record keeping.",
-    "skills": ["React", "Node", "Express", "MongoDB","Redux"],
+    "description": "This is Cardiac Hospital Management System. It includes features for patient management, appointment scheduling and medical record keeping.",
+    "skills": ["React", "Node","Express","MongoDB","Redux"],
     "demo": "#",
     "source": "https://github.com/M33t12/cardiac-hospital-management"
   },
@@ -14,13 +22,5 @@
     "skills": ["Python","Flask", "HTML","CSS" ],
     "demo": "#",
     "source": "https://github.com/M33t12/Airline-Passenger-Satisfaction"
-  },
-  {
-    "title": "VinyVibe",
-    "imageSrc": "projects/vinyvibe.png",
-    "description": "This is an E-Commerce website of clothing store. It includes admin pannel and customer modules.",
-    "skills": ["HTML", "CSS", "PHP","MySQL"],
-    "demo": "#",
-    "source": "https://github.com/M33t12/VinyVibe_Clothing_Store"
   }
 ]

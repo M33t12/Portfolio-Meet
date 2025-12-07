@@ -22,7 +22,7 @@ export const About = () => {
           </li>
 
           <li className={styles.resumeItem}>
-            <a href="../../public/Meet_Chaudhari_Resume.pdf" download="Meet-Chaudhari-Resume" className={styles.resumeBtn}>Resume</a>
+            <a href="../../public/Meet-Chaudhari-Resume.pdf" download="Meet-Chaudhari-Resume" className={styles.resumeBtn}>Resume</a>
           </li>
 
         </ul>

@@ -22,9 +22,6 @@ export const ProfessionalExperience = () => {
                 Developed a secure and scalable MERN stack web application allowing users to create, edit, and manage notes with real-time updates and built admin panel with CRUD functionality.
               </li>
               <li>
-                Implemented JWT-based login/registration with password encryption, ensuring secure access for authenticated users.
-              </li>
-              <li>
                 Designed and integrated Express.js backend APIs for seamless communication between React frontend and MongoDB.
               </li>
             </ul>
@@ -49,9 +46,6 @@ export const ProfessionalExperience = () => {
               </li>
               <li>
                 Developed responsive and user-friendly web interfaces using HTML, CSS, and JavaScript, ensuring cross browser compatibility.
-              </li>
-              <li>
-                Implemented interactive features (e.g., dynamic forms, animations, and DOM manipulation) to elevate user experience.
               </li>
               
             </ul>
